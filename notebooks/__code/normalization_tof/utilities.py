@@ -34,7 +34,7 @@ class NormalizedData:
     energy_array= None
 
 
-from __code.normalization_tof.units import (
+from __code._utilities.units import (
     DistanceUnitOptions,
     EnergyUnitOptions,
     TimeUnitOptions,
