@@ -4,9 +4,6 @@ import logging as notebook_logging
 from multiprocessing.util import debug
 import os
 from pathlib import Path
-from arrow import get
-from h11 import Data
-import notebook
 import numpy as np
 import pandas as pd
 import h5py
@@ -26,7 +23,6 @@ from __code.normalization_tof import DataType
 from __code._utilities.time import get_current_time_in_special_file_name_format
 from __code._utilities.json import save_json, load_json
 from __code._utilities.is_it import is_it_a_folder, is_it_a_file
-from __code.ipywe.myfileselector import MyFileSelectorPanel
 from __code.ipywe.fileselector import FileSelectorPanel as MyFileSelectorPanel
 
 # from __code.normalization_tof import DetectorType, autoreduce_dir, distance_source_detector_m, raw_dir
