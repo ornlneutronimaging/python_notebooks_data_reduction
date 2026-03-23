@@ -12,17 +12,13 @@ python = ">=3.14.3,<3.15"
 plotly = ">=6.5.2,<7"
 pyqtgraph = ">=0.14.0,<0.15"
 jupyterlab = ">=4.5.4,<5"
-ipympl = ">=0.10.0,<0.11"
 qtpy = ">=2.4.3,<3"
 pyqt = ">=5.15.11,<6"
 numpy = ">=2.4.2,<3"
 jupyter = ">=1.1.1,<2"
 pleiades-neutron = ">=2.1.5,<3"
 pillow = ">=12.1.1,<13"
-ipykernel = ">=7.2.0,<8"
-jupyter_client = ">=8.8.0,<9"
-jupyter_core = ">=5.9.1,<6"
-nbformat = ">=5.10.4,<6"
+neunorm = ">=1.6.12,<2"
 
 [pypi-dependencies]
 timepix-geometry-correction = { git = "https://github.com/ornlneutronimaging/timepix_geometry_correction.git", branch="main"}
