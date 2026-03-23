@@ -15,7 +15,7 @@ from skimage.io import imread
 
 # from enum import Enum
 # from scipy.constants import h, c, electron_volt, m_n
-from __code.normalization_tof.units import (
+from __code._utilities.units import (
     DistanceUnitOptions,
     EnergyUnitOptions,
     TimeUnitOptions,

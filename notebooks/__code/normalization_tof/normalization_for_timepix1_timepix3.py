@@ -8,7 +8,6 @@ import shutil
 from pathlib import Path
 from typing import Tuple
 
-from annotated_types import Not
 import h5py
 import plotly.graph_objects as go
 import plotly.express as px
@@ -36,7 +35,7 @@ class NormalizedData:
     energy_array= None
 
 
-from __code.normalization_tof.units import (
+from __code._utilities.units import (
     DistanceUnitOptions,
     EnergyUnitOptions,
     TimeUnitOptions,
